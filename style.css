@@ -255,9 +255,21 @@ body {
     gap: 10px;
 }
 
+.container-2 .bxs-microphone-off {
+    position: relative;
+    right: 5px;
+}
+
+.container-2 .bx-video-off {
+    position: relative;
+    right: 5px;
+}
+
 .container-2 div:nth-child(1) {
     display: flex;
     align-items: center;
+    position: relative;
+    left: 10px;
 }
 
 .container-2 div:nth-child(1) .bx-chevron-up {
@@ -275,13 +287,13 @@ body {
     background-color: rgba(250, 221, 219);
     padding: 10px;
     border-radius: 10px;
-    position: absolute;
-    /* left: 53px; */
 } 
 
 .container-2 div:nth-child(2) {
     display: flex;
     align-items: center;
+    position: relative;
+    left: 5px;
 }
 
 .container-2 div:nth-child(2) .bx-chevron-up {
@@ -299,8 +311,8 @@ body {
     background-color: rgba(250, 221, 219);
     padding: 10px;
     border-radius: 10px;
-    /* position: absolute; */
-    left: 53px;
+    /* position: absolute;
+    left: 80px; */
 } 
 
 .container-2 div:nth-child(3) {
